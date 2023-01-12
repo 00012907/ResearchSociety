@@ -679,7 +679,7 @@ footer .card3 .head{
     flex-wrap: wrap;
   }
   main.exc-board span{
-    color: var(--brownish);
+    color: var(--yellow);
     font-family: var(--head-font-fam);
     display: block;
     padding: 1.2rem;
