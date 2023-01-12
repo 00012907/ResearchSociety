@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="./index.html"><img src="./Assets/atom.png" alt=""></a>
+                <p>WIUT <span>Research Society</span></p>
+            </div>
+            <ul class="navbar">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./excutiveBoard.html">Executive Board</a></li>
+                <li><a href="./getinvolved.html">Get involved</a></li>
+                <div class="dropup">
+                    <li><a href="" class="dropbtn">Projects</a>
+                        <div class="dropup-content">
+                            <a href="#">Research Digest</a>
+                            <a href="#">Research Podcast</a>
+                          </div>
+                    </li>
+                </div>
+                <li><a href="./conference.html">Conference</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <main class="getinvolved">
+            <div class="box-2">
+                <form name="myForm" action="" onsubmit="return validateForm()" >
+                    <p style="text-align: center; padding-bottom: 2rem; letter-spacing: 3px; font-family: Sofia sans;">Research Society Membership Application</p>
+                    <div class="cardcha">
+                        <label for="name">Name: </label>
+                        <input  type="text" name="name" id="name" placeholder="John">
+                    </div>
+                    <div class="cardcha">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="myemail@gmail.com">
+                    </div>
+                    <div class="cardcha">
+                        <label for="phone">Phone Number: </label>
+                        <input type="number" name="phone" id="phone" placeholder="+99890 123 45 67">
+                    </div>
+                    <div class="cardcha">
+                        <label for="message">Your Message: </label>
+                        <input type="text" name="message" id="message" placeholder="...">
+                    </div>
+                    <div class="cardcha card-last">
+                        <label>...</label>
+                        <button name="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+    </header>
+
+      <!-- footer -->
+
+      <footer>
+        <div class="box">
+            <div class="card card1">
+                <img src="./Assets/atom.png" alt="">
+                <a href="./index.html">WIUT Research Society</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aperiam ex, quos nam facere ad aspernatur doloribus praesentium nihil deleniti id nostrum velit voluptate a temporibus consequuntur distinctio esse sit.</p>
+                <div class="social-media">
+                   
+                </div>
+            </div>
+            <div class="card card2">
+                <p>Contact Details</p>
+                <ul>
+                    <li>&#9742; Tashkent, 100120, Uzbekistan</li>
+                    <li>&#9993; info@example.com</li>
+                    <li>&#9743; +99890 123 45 67</li>
+                    <li>&#9998; +99890 987 65 43</li>
+                </ul>
+            </div>
+            <div class="card card3">
+                <p>Opening hours</p>
+                <table>
+                    <tr>
+                      <td class="head">Days</td>
+                      <td class="head">Hours</td>
+                    </tr>
+                    <tr>
+                      <td>Monday-Thursday</td>
+                      <td>8am-9pm</td>
+                    </tr>
+                    <tr>
+                      <td>Friday-Saturday</td>
+                      <td>10am-2pm</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>9am-5pm</td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="./main.js"></script>
+</body>
+</html>
